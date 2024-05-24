@@ -20,16 +20,10 @@ class App extends Component {
     render() {
         return (
             ReactDOM.createRoot(document.getElementById('root')).render(
-                <React.StrictMode>
-                    <HashRouter basename="/">
-                        <section className="App">
-                            <Router>
-                                <Link to="/">Home</Link>
-                                <Route exact path="/" component={IndexPage} />
-                            </Router>
-                        </section>
-                    </HashRouter>
-                </React.StrictMode>
+                <HashRouter basename="/">
+                    <Link to="/">Home</Link>
+                    <Route exact path="/" component={IndexPage} />
+                </HashRouter>
             )
         )
     }
