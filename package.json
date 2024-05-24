@@ -20,11 +20,13 @@
   "bugs": {
     "url": "https://github.com/WJones132/wjones132.github.io/issues"
   },
-  "homepage": "https://github.com/WJones132/wjones132.github.io#readme",
+  "homepage": "https://wjones132.github.io",
   "dependencies": {
     "express": "^4.19.2",
+    "gh-pages": "^6.1.1",
     "react-router-dom": "^6.23.1",
     "react-scripts": "^5.0.1",
+    "serve": "^14.2.3",
     "vite": "^5.2.11"
   },
   "browserslist": {
