@@ -5,14 +5,19 @@ import redee from "../redeeapp"
 import Contact from "./templates/Contact";
 import Navbar from "./navbar";
 
+// const IndexPage = () => <h3>Home Page</h3>;
+
+function IndexPage() {
+    return (
+        <h3>Home Page</h3>
+    )
+}
+
 function App() {
     return (
         <>
-            {/* <Navbar /> */}
             <Routes>
-                <Route path="/" component={Home} />
-                <Route path="/redee" component={redee} />
-                <Route path="/contact" element={<Contact />} />
+                <Route path="/" element={<IndexPage /} />
             </Routes>
         </>
     );
