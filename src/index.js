@@ -11,7 +11,7 @@ function App() {
         <section className="App">
             <Router>
                 <Link to="/">Home</Link>
-                <Route exact path="/" component={<IndexPage/>} />
+                <Route exact path="/" component={IndexPage} />
             </Router>
         </section>
     )
