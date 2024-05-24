@@ -17,7 +17,7 @@ function App() {
     return (
         <>
             <Routes>
-                <Route path="/" element={<IndexPage /} />
+                <Route path="/" element={<IndexPage />} />
             </Routes>
         </>
     );
